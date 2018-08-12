@@ -10,6 +10,10 @@ def index():
 def menu():
 	return '<h1>menu</h1>'
 
+@app.route('/role')
+def role():
+	return '<h1>role</h1>'
+
 	
 if __name__ == '__main__':
 	app.run(debug=True)
