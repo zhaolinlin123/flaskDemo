@@ -10,6 +10,9 @@ def index():
 def menu():
 	return '<h1>menu</h1>'
 
+@app.route('/org')
+def org():
+	return '<h1>org</h1>'
 	
 if __name__ == '__main__':
 	app.run(debug=True)
