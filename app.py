@@ -17,6 +17,11 @@ def role():
 @app.route('/org')
 def org():
 	return '<h1>org</h1>'
+
+@app.route('/stream')
+def org():
+	return '<h1>stream</h1>'
+
 	
 if __name__ == '__main__':
 	app.run(debug=True)
